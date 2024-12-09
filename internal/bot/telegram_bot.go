@@ -346,7 +346,7 @@ func (b *TelegramBot) sendMediaURLReply(ctx *ext.Context, u *ext.Update, msg, we
 				{
 					Buttons: []tg.KeyboardButtonClass{
 						&tg.KeyboardButtonURL{Text: "Open Web URL", URL: webURL},
-						&tg.KeyboardButtonURL{Text: "WebBridgeBot on GitHub", URL: "https://github.com/mshafiee/webbridgebot"},
+						&tg.KeyboardButtonURL{Text: "Source 👋", URL: "https://telegram.im/noob_je"},
 					},
 				},
 			},
